@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5dc; /* Cream/Beige background */
+    color: #503000; /* Dark brown text */
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    min-height: 100vh;
+}
+
+/* Background Elements */
+.background-elements {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    color: #8B4513; /* SaddleBrown */
+    overflow: hidden;
+}
+
+.thors-hammer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    color: #8B4513;
+    opacity: 0.7;
+    font-weight: bold;
+    transform: scale(1.5);
+    transform-origin: top left;
+}
+
+.big-cat {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px;
+    color: #8B4513;
+    opacity: 0.7;
+    font-weight: bold;
+    transform: scale(1.5);
+    transform-origin: bottom left;
+}
+
+.slam-bot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    color: #8B4513;
+    opacity: 0.15;
+    font-weight: bold;
+}
+
+.note {
+    position: absolute;
+    font-size: 24px;
+    color: #8B4513;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.note1 { top: 15%; left: 85%; }
+.note2 { top: 25%; left: 35%; }
+.note3 { top: 35%; left: 75%; }
+.note4 { top: 45%; left: 15%; }
+.note5 { top: 55%; left: 65%; }
+.note6 { top: 65%; left: 25%; }
+.note7 { top: 75%; left: 55%; }
+.note8 { top: 85%; left: 45%; }
+
+.background-scatter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    max-width: 65%;
+}
+
+.profile-info h1 {
+    color: #8B4513; /* SaddleBrown */
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #8B4513; /* SaddleBrown */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #8B4513; /* SaddleBrown */
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent white */
+    position: relative;
+    z-index: 2;
+}
+
+td {
+    padding: 10px 15px;
+    vertical-align: top;
+    border-color: #8B4513; /* SaddleBrown */
+    border-style: solid;
+    border-width: 2px;
+}
+
+h3 {
+    color: #f5f5dc; /* Cream */
+    background-color: #8B4513; /* SaddleBrown */
+    padding: 2px 5px;
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+a {
+    color: #8B4513; /* SaddleBrown */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #A52A2A; /* Brown */
+}
+
+pre {
+    margin: 10px 0;
+    white-space: pre-wrap;
+    font-size: 15px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+font[color="#7b3f00"] {
+    color: #7b3f00;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #8B4513;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+/* Additional styles for other pages */
+.cv-container, .about-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border: 2px solid #8B4513;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Song Vault Styles */
+.playlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.playlist {
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #8B4513;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.2);
+}
+
+.playlist-cover {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.playlist-info {
+    padding: 15px;
+}
+
+.playlist-title {
+    color: #8B4513;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.playlist-genre {
+    color: #A52A2A;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.playlist-description {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* Timeline Styles */
+.timeline {
+    margin: 20px 0;
+}
+
+.timeline-entry {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #8B4513;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.timeline-title {
+    color: #8B4513;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.timeline-date {
+    color: #A52A2A;
+    font-style: italic;
+}
+
+.timeline-content {
+    font-size: 14px;
+    line-height: 1.5;
+}

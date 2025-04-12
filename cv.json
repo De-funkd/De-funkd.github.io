@@ -1,0 +1,36 @@
+{
+  "name": "Brian Mayer",
+  "email": "example@example.com",
+  "website": "terminal.pink",
+  "github": "github.com/blmayer",
+  "intro": "I'm a software developer, I love creating minimalist and efficient software and to contribute to open source projects.",
+  "skills": {
+    "Golang": 78,
+    "Python": 61,
+    "C": 52,
+    "R": 50,
+    "JavaScript": 35,
+    "MongoDB": 42,
+    "Kubernetes": 31,
+    "Docker": 46,
+    "AWS Lambda": 79,
+    "Shell/Linux": 74,
+    "Mathematica": 55,
+    "GCP": 58,
+    "MySQL": 52,
+    "Flutter": 30
+  },
+  "education": [
+    {
+      "degree": "Licentiate degree",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "period": "2010-2014",
+      "thesis": "Integrando Alguns Conteúdos do Ensino Médio com Equações Diferença"
+    },
+    {
+      "degree": "Bachelor degree",
+      "institution": "Universidade Presbiteriana Mackenzie",
+      "thesis": "Equações de Diferenças aplicadas em Séries e em outras áreas do conhecimento"
+    }
+  ]
+}

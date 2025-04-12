@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>terminal.pink clone</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f5f5dc; /* cream background */
+        }
+        .background-elements {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .thors-hammer {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .big-cat {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .background-scatter {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .note {
+            position: absolute;
+            font-size: 2em;
+            color: #000;
+        }
+        .note1 { top: 10%; left: 10%; }
+        .note2 { top: 20%; left: 20%; }
+        .note3 { top: 30%; left: 30%; }
+        .note4 { top: 40%; left: 40%; }
+        .note5 { top: 50%; left: 50%; }
+        .note6 { top: 60%; left: 60%; }
+        .note7 { top: 70%; left: 70%; }
+        .note8 { top: 80%; left: 80%; }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .profile-info {
+            max-width: 60%;
+        }
+        .profile-image img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background-elements">
+            <!-- Thor's Hammer - Top Left -->
+            <div class="thors-hammer">
+                <pre>
+    ⚡  ⚡  ⚡
+        ###
+        ###
+        ###
+    #########
+    #########
+        ###
+        ###
+        ###
+        ###
+        ###
+                </pre>
+            </div>
+
+            <!-- Big Cat - Bottom Left -->
+            <div class="big-cat">
+                <pre>
+      /^\\___/^\\
+     /  o   o  \\
+    ( ==  ^  == )
+     )         (
+    (           )
+   ( (  )   (  ) )
+  (__(__)___(__)__)
+   /--/     \\--\\
+                </pre>
+            </div>
+
+            <!-- SLAM Robot and Musical Notes scattered around -->
+            <div class="background-scatter">
+                <span class="note note1">♫</span>
+                <span class="note note2">♪</span>
+                <span class="note note3">♬</span>
+                <span class="note note4">♩</span>
+                <span class="note note5">𝄞</span>
+                <span class="note note6">♪</span>
+                <span class="note note7">♫</span>
+                <span class="note note8">♬</span>
+
+                <!-- SLAM Bot - Center Background -->
+                <div class="slam-bot">
+                    <pre>
+    .----.   @   @
+   / .-"-.`.  \\v/
+   | | '\\ \\ \\_/ )
+ ,-\\ `-.' /.'  /
+'---`----'----'
+     [==[]=]
+    /       \\
+   (   LiDAR )
+   \\  _____  /
+    '-._|_.-'
+    ___/_\___
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="profile-header">
+                <div class="profile-info">
+                    <h1>Hi, I'm a Developer</h1>
+                    <p class="bio">I'm a passionate software engineer with an interest in minimalism, robotics, music, and Norse mythology. I create efficient solutions for complex problems and enjoy working on open-source projects that make a difference.</p>
+                </div>
+                <div class="profile-image">
+                    <img src="images/avatar.jpg" alt="Profile Picture">
+                </div>
+            </div>
+
+            <table border="3">
+                <tbody>
+                    <tr>
+                        <td>
+                            <pre><font color="#7b3f00">#</font> _(){_|_&amp;};_
+
+- <a href="pgp.pub">pgp</a>
+- my <a href="//blog.terminal.pink">blog</a>
+- <a href="cv.html">CV</a>
+- <a href="//github.com/blmayer">github</a>
+- about this <a href="about.html">site</a>
+- check out my <a href="projects.html">projects</a>
+- my <a href="songvault.html">song vault</a>
+- my <a href="timeline.html">timeline</a>
+- <a href="lol.xml">lol</a>
+</pre>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
