@@ -17,15 +17,15 @@
             height: 100%;
             z-index: -1;
         }
-        .thors-hammer {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
         .big-cat {
             position: absolute;
-            bottom: 0;
-            left: 0;
+            bottom: 20px;
+            left: 20px;
+        }
+        .slam-bot {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
         }
         .background-scatter {
             position: absolute;
@@ -39,14 +39,24 @@
             font-size: 2em;
             color: #000;
         }
-        .note1 { top: 10%; left: 10%; }
-        .note2 { top: 20%; left: 20%; }
-        .note3 { top: 30%; left: 30%; }
-        .note4 { top: 40%; left: 40%; }
-        .note5 { top: 50%; left: 50%; }
-        .note6 { top: 60%; left: 60%; }
-        .note7 { top: 70%; left: 70%; }
-        .note8 { top: 80%; left: 80%; }
+        .note1 { top: 5%; left: 5%; }
+        .note2 { top: 15%; left: 15%; }
+        .note3 { top: 25%; left: 25%; }
+        .note4 { top: 35%; left: 35%; }
+        .note5 { top: 45%; left: 45%; }
+        .note6 { top: 55%; left: 55%; }
+        .note7 { top: 65%; left: 65%; }
+        .note8 { top: 75%; left: 75%; }
+        .note9 { top: 85%; left: 85%; }
+        .note10 { top: 10%; left: 90%; }
+        .note11 { top: 20%; left: 80%; }
+        .note12 { top: 30%; left: 70%; }
+        .note13 { top: 40%; left: 60%; }
+        .note14 { top: 50%; left: 50%; }
+        .note15 { top: 60%; left: 40%; }
+        .note16 { top: 70%; left: 30%; }
+        .note17 { top: 80%; left: 20%; }
+        .note18 { top: 90%; left: 10%; }
         .content {
             position: relative;
             z-index: 1;
@@ -70,23 +80,6 @@
 <body>
     <div class="container">
         <div class="background-elements">
-            <!-- Thor's Hammer - Top Left -->
-            <div class="thors-hammer">
-                <pre>
-    ⚡  ⚡  ⚡
-        ###
-        ###
-        ###
-    #########
-    #########
-        ###
-        ###
-        ###
-        ###
-        ###
-                </pre>
-            </div>
-
             <!-- Big Cat - Bottom Left -->
             <div class="big-cat">
                 <pre>
@@ -101,20 +94,9 @@
                 </pre>
             </div>
 
-            <!-- SLAM Robot and Musical Notes scattered around -->
-            <div class="background-scatter">
-                <span class="note note1">♫</span>
-                <span class="note note2">♪</span>
-                <span class="note note3">♬</span>
-                <span class="note note4">♩</span>
-                <span class="note note5">𝄞</span>
-                <span class="note note6">♪</span>
-                <span class="note note7">♫</span>
-                <span class="note note8">♬</span>
-
-                <!-- SLAM Bot - Center Background -->
-                <div class="slam-bot">
-                    <pre>
+            <!-- SLAM Bot - Bottom Right -->
+            <div class="slam-bot">
+                <pre>
     .----.   @   @
    / .-"-.`.  \\v/
    | | '\\ \\ \\_/ )
@@ -127,7 +109,28 @@
     '-._|_.-'
     ___/_\___
                     </pre>
-                </div>
+            </div>
+
+            <!-- Musical Notes scattered around -->
+            <div class="background-scatter">
+                <span class="note note1">♫</span>
+                <span class="note note2">♪</span>
+                <span class="note note3">♬</span>
+                <span class="note note4">♩</span>
+                <span class="note note5">𝄞</span>
+                <span class="note note6">♪</span>
+                <span class="note note7">♫</span>
+                <span class="note note8">♬</span>
+                <span class="note note9">♩</span>
+                <span class="note note10">𝄞</span>
+                <span class="note note11">♪</span>
+                <span class="note note12">♫</span>
+                <span class="note note13">♬</span>
+                <span class="note note14">♩</span>
+                <span class="note note15">𝄞</span>
+                <span class="note note16">♪</span>
+                <span class="note note17">♫</span>
+                <span class="note note18">♬</span>
             </div>
         </div>
 
